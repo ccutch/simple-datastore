@@ -1,0 +1,1 @@
+{"tables":{"posts":{"content":"string","owner":"users","title":"string"},"users":{"id":"int","name":"string"}},"data":{"posts":[{"content":"This is the body of the post","owner":{"Id":1,"Name":"Connor"},"title":"First Post"}],"users":[{"id":1,"name":"Connor"}]}}
