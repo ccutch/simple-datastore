@@ -54,4 +54,14 @@ func main() {
 	postsTable.Insert(postNode)
 
 	fmt.Println(db.Tables())
+
+	// todo:
+	// userMirror := User{}
+	// postMirror := Post{}
+	//
+	// usersTable.FindWhere(&userMirror, "id", "1")
+	// postsTable.FindWhere(&postMirror, "title", "First Post")
+	//
+	// fmt.Println(userMirror) // should be the same as user
+	// fmt.Println(postMirror) // should be the same as post
 }
