@@ -6,7 +6,7 @@ type Field string
 type Schema map[string]Field
 
 func (f Field) Parse(v interface{}) interface{} {
-
+	return ""
 }
 
 func Schemafy(s interface{}) Schema {
